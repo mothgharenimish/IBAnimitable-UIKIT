@@ -34,7 +34,11 @@ class ViewController: UIViewController {
         //    }
         
         
-        animatedView.animate(.compound(animations: .init(arrayLiteral: .pop(repeatCount: 4)), run: .parallel), velocity: 0)
+//        animatedView.animate(.compound(animations: .init(arrayLiteral: .pop(repeatCount: 4)), run: .parallel), velocity: 0)
+        
+        animatedView.animate(.zoom(way: .in))
+        
+        
         
     }
     
