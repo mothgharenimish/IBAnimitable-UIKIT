@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azv-iu-58d" customClass="AnimatableView" customModule="IBAnimatable">
-                                <rect key="frame" x="76.666666666666686" y="362" width="240" height="128"/>
+                                <rect key="frame" x="76.666666666666686" y="259" width="240" height="128"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="4EY-rG-0mb"/>
@@ -40,7 +40,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="azv-iu-58d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CvQ-pJ-XhT"/>
-                            <constraint firstItem="azv-iu-58d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="txE-4Q-ZYV"/>
+                            <constraint firstItem="azv-iu-58d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="YLE-32-8dR"/>
                         </constraints>
                     </view>
                     <connections>
