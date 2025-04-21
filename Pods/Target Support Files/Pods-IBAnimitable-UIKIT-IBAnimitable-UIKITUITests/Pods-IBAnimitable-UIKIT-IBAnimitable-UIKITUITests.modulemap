@@ -1,0 +1,6 @@
+framework module Pods_IBAnimitable_UIKIT_IBAnimitable_UIKITUITests {
+  umbrella header "Pods-IBAnimitable-UIKIT-IBAnimitable-UIKITUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

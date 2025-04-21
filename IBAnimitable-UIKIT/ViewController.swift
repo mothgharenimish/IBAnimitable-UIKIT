@@ -6,12 +6,21 @@
 //
 
 import UIKit
+import IBAnimatable
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var animatedView: AnimatableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+//        animatedView.animate(.pop(repeatCount: 1))
+        animatedView.animate(.squeezeFade(way: .in, direction: .up))
+        animatedView.animate(.squeeze(way: .in, direction: .right), duration: 1, damping: 1, velocity: 2, force: 1)
+
+
     }
 
 
